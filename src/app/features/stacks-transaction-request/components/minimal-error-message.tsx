@@ -5,8 +5,8 @@ import { Box, Stack, StackProps, color } from '@stacks/ui';
 import { TransactionSigningSelectors } from '@tests-legacy/page-objects/transaction-signing.selectors';
 
 import { Caption } from '@app/components/typography';
-import { TransactionErrorReason } from '@app/pages/transaction-request/components/transaction-error/transaction-error';
-import { useTransactionError } from '@app/pages/transaction-request/hooks/use-transaction-error';
+import { TransactionErrorReason } from '@app/features/stacks-transaction-request/components/transaction-error/transaction-error';
+import { useTransactionError } from '@app/features/stacks-transaction-request/hooks/use-transaction-error';
 
 function MinimalErrorMessageSuspense(props: StackProps) {
   const error = useTransactionError();

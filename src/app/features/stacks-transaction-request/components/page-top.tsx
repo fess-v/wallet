@@ -6,7 +6,7 @@ import { TransactionSigningSelectors } from '@tests-legacy/page-objects/transact
 import { useDefaultRequestParams } from '@app/common/hooks/use-default-request-search-params';
 import { addPortSuffix, getUrlHostname } from '@app/common/utils';
 import { Caption, Title } from '@app/components/typography';
-import { usePageTitle } from '@app/pages/transaction-request/hooks/use-page-title';
+import { usePageTitle } from '@app/features/stacks-transaction-request/hooks/use-page-title';
 import { useCurrentNetworkState } from '@app/store/networks/networks.hooks';
 import { useTransactionRequestState } from '@app/store/transactions/requests.hooks';
 
