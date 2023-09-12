@@ -14,7 +14,7 @@ import { stacksValue } from '@app/common/stacks-utils';
 import { LeatherButton } from '@app/components/button/button';
 import { SpaceBetween } from '@app/components/layout/space-between';
 import { Caption } from '@app/components/typography';
-import { ErrorMessage } from '@app/pages/transaction-request/components/transaction-error/error-message';
+import { ErrorMessage } from '@app/features/stacks-transaction-request/components/transaction-error/error-message';
 import { useCurrentStacksAccountAnchoredBalances } from '@app/query/stacks/balance/stx-balance.hooks';
 import { useCurrentNetworkState } from '@app/store/networks/networks.hooks';
 import { useTransactionRequestState } from '@app/store/transactions/requests.hooks';
